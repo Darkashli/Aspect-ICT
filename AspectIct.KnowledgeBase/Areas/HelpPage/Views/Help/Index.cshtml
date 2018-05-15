@@ -1,0 +1,39 @@
+@using System.Web.Http
+@using System.Web.Http.Controllers
+@using System.Web.Http.Description
+@using System.Collections.ObjectModel
+@using AspectIct.KnowledgeBase.Areas.HelpPage.Models
+@model Collection<ApiDescription>
+<br />
+
+@{
+    ViewBag.Title = "ASP.NET Web API Help Pags";
+
+    // Group APIs by controller
+    ILookup<HttpControllerDescriptor, ApiDescription> apiGroups = Model.ToLookup(api => api.ActionDescriptor.ControllerDescriptor);
+}
+
+<link type="text/css" href="~/Areas/HelpPage/HelpPage.css" rel="stylesheet" />
+<header class="help-page">
+    <div class="content-wrapper">
+        <div class="float-left">
+            <h2>@ViewBag.Title</h2>
+        </div>
+    </div>
+</header><br/><br/>
+<div id="body" class="help-page">
+    <section class="featured">
+        <div class="content-wrapper">
+            <h3>Introduction</h3>
+            <p>
+                Provide a general description of your APIs here.
+            </p>
+        </div>
+    </section>
+    <section class="content-wrapper main-content clear-fix">
+        @foreach (var group in apiGroups)
+        {
+            @Html.DisplayFor(m => group, "ApiGroup")
+        }
+    </section>
+</div>

@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectIct.KnowledgeBase.Api", "AspectIct.KnowledgeBase\AspectIct.KnowledgeBase.Api.csproj", "{89B87EB6-75A1-4247-A2AB-6992DBB73C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectIct.KnowledgeBase.Domain", "AspectIct.KnowledgeBase.Domain\AspectIct.KnowledgeBase.Domain.csproj", "{9E0C9604-71C6-4C82-ADAA-08AB1EFBD2CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspectIct.KnowledgeBase.Infrastructure", "AspectIct.KnowledgeBase.Infrastructure\AspectIct.KnowledgeBase.Infrastructure.csproj", "{8A5CD29C-4500-404B-B89E-D89E4239E204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B87EB6-75A1-4247-A2AB-6992DBB73C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B87EB6-75A1-4247-A2AB-6992DBB73C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B87EB6-75A1-4247-A2AB-6992DBB73C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B87EB6-75A1-4247-A2AB-6992DBB73C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0C9604-71C6-4C82-ADAA-08AB1EFBD2CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0C9604-71C6-4C82-ADAA-08AB1EFBD2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0C9604-71C6-4C82-ADAA-08AB1EFBD2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0C9604-71C6-4C82-ADAA-08AB1EFBD2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A5CD29C-4500-404B-B89E-D89E4239E204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A5CD29C-4500-404B-B89E-D89E4239E204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A5CD29C-4500-404B-B89E-D89E4239E204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A5CD29C-4500-404B-B89E-D89E4239E204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AC6BC2F-5FF1-4C8A-AE5F-306F00908B92}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://aspectict.visualstudio.com/DefaultCollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AspectIct.KnowledgeBase.Domain\\AspectIct.KnowledgeBase.Domain.csproj
+		SccProjectName1 = AspectIct.KnowledgeBase.Domain
+		SccLocalPath1 = AspectIct.KnowledgeBase.Domain
+		SccProjectUniqueName2 = AspectIct.KnowledgeBase.Infrastructure\\AspectIct.KnowledgeBase.Infrastructure.csproj
+		SccProjectName2 = AspectIct.KnowledgeBase.Infrastructure
+		SccLocalPath2 = AspectIct.KnowledgeBase.Infrastructure
+		SccProjectUniqueName3 = AspectIct.KnowledgeBase\\AspectIct.KnowledgeBase.Api.csproj
+		SccProjectName3 = AspectIct.KnowledgeBase
+		SccLocalPath3 = AspectIct.KnowledgeBase
+	EndGlobalSection
+EndGlobal
